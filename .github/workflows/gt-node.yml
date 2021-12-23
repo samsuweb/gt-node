@@ -6,4 +6,4 @@ jobs:
   deploy-to-dev-sg:
     runs-on: self-hosted
     steps:
-      - run: cd /home/ops/docker-build/gt-php && sh deploy.sh main
+      - run: cd /home/ops/docker-build/gt-node && sh deploy.sh main
